@@ -1,0 +1,22 @@
+function myPromiseFunction() {
+  return new Promise((resolve, reject) => {
+	  //add some function here, if function run failed, the rest will not be excuted.
+	  console.log("first promise of mine")
+    setTimeout(() => {
+		console.log("first promise of mine");
+      resolve("yoho, resolved!"); // Or any other value you want to resolve with
+    }, 5000);
+  });
+};
+myPromiseFunction()
+  .then((value) => {
+    setTimeout(() => {console.log("happy first then");},5000);
+	//return anotherPromise();
+  })
+  .then(() => {
+	  setTimeout(() => {console.log("happy second then");},3000);
+    // Handle the value from anotherPromise
+  })
+  .catch((error) => {
+    console.error(error); // Handle potential errors
+  });
