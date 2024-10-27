@@ -1,0 +1,297 @@
+{
+    "title": "filterspu",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1918,
+            "height": 1475,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "chrome://newtab/",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "chrome://newtab/",
+                    "title": "新标签页"
+                }
+            ]
+        },
+        {
+            "type": "navigate",
+            "url": "http://10.100.1.1/product-web/sinProMan/spu",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://10.100.1.1/product-web/sinProMan/spu",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/更多"
+                ],
+                [
+                    "div.main-content-con a"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[2]/div[7]/div/a"
+                ],
+                [
+                    "pierce/div.main-content-con a"
+                ],
+                [
+                    "text/更多"
+                ]
+            ],
+            "offsetY": 9.0863037109375,
+            "offsetX": 21.770751953125
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) div.ivu-select-selection > div > input"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[3]/div[1]/div[2]/div/div[1]/div/input"
+                ],
+                [
+                    "pierce/div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) div.ivu-select-selection > div > input"
+                ]
+            ],
+            "offsetY": 3.74700927734375,
+            "offsetX": 114.89877319335938
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) li:nth-of-type(5)"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[3]/div[1]/div[2]/div/div[2]/ul[2]/li[5]"
+                ],
+                [
+                    "pierce/div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) li:nth-of-type(5)"
+                ]
+            ],
+            "offsetY": 10.9315185546875,
+            "offsetX": 97.83926391601562
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.right-content div:nth-of-type(2) > i"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[2]/div[2]/div/div[1]/div/div[2]/i"
+                ],
+                [
+                    "pierce/div.right-content div:nth-of-type(2) > i"
+                ]
+            ],
+            "offsetY": 3.6881256103515625,
+            "offsetX": 10.09881591796875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.right-content div:nth-of-type(2) > i"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[2]/div[2]/div/div[1]/div/div[2]/i"
+                ],
+                [
+                    "pierce/div.right-content div:nth-of-type(2) > i"
+                ]
+            ],
+            "offsetY": 3.6881256103515625,
+            "offsetX": 10.09881591796875
+        },
+        {
+            "type": "doubleClick",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.right-content div:nth-of-type(2) > i"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[2]/div[2]/div/div[1]/div/div[2]/i"
+                ],
+                [
+                    "pierce/div.right-content div:nth-of-type(2) > i"
+                ]
+            ],
+            "offsetY": 7.6881256103515625,
+            "offsetX": 10.09881591796875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.right-content div:nth-of-type(2) > i"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[2]/div[2]/div/div[1]/div/div[2]/i"
+                ],
+                [
+                    "pierce/div.right-content div:nth-of-type(2) > i"
+                ]
+            ],
+            "offsetY": 7.6881256103515625,
+            "offsetX": 10.09881591796875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2) div.ivu-select-selection > div > input"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[3]/div[2]/div[2]/div/div[1]/div/input"
+                ],
+                [
+                    "pierce/div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2) div.ivu-select-selection > div > input"
+                ]
+            ],
+            "offsetY": 7.202362060546875,
+            "offsetX": 160.88687133789062
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(3) > div:nth-of-type(2) li:nth-of-type(4)"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[3]/div[2]/div[2]/div/div[2]/ul[2]/li[4]"
+                ],
+                [
+                    "pierce/div:nth-of-type(3) > div:nth-of-type(2) li:nth-of-type(4)"
+                ]
+            ],
+            "offsetY": 9.56842041015625,
+            "offsetX": 78.83926391601562
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(3) > div:nth-of-type(8) span"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[3]/div[3]/div[8]/div/div[1]/div/span"
+                ],
+                [
+                    "pierce/div:nth-of-type(3) > div:nth-of-type(8) span"
+                ]
+            ],
+            "offsetY": 17.8363037109375,
+            "offsetX": 94.8243408203125
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(3) > div:nth-of-type(8) li:nth-of-type(2)"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[3]/div[3]/div[8]/div/div[2]/ul[2]/li[2]"
+                ],
+                [
+                    "pierce/div:nth-of-type(3) > div:nth-of-type(8) li:nth-of-type(2)"
+                ]
+            ],
+            "offsetY": 15.940460205078125,
+            "offsetX": 60.7767333984375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(5) > div:nth-of-type(6) div.ivu-select-selection > div > input"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[3]/div[5]/div[6]/div/div[1]/div/input"
+                ],
+                [
+                    "pierce/div:nth-of-type(5) > div:nth-of-type(6) div.ivu-select-selection > div > input"
+                ]
+            ],
+            "offsetY": 9.48211669921875,
+            "offsetX": 81.5118408203125
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(5) > div:nth-of-type(6) ul.ivu-select-dropdown-list > li:nth-of-type(1)"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[3]/div[5]/div[6]/div/div[2]/ul[2]/li[1]"
+                ],
+                [
+                    "pierce/div:nth-of-type(5) > div:nth-of-type(6) ul.ivu-select-dropdown-list > li:nth-of-type(1)"
+                ]
+            ],
+            "offsetY": 11.812469482421875,
+            "offsetX": 59.4642333984375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(2) > div:nth-of-type(6) div.ivu-select-selection > div > input"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[3]/div[2]/div[6]/div/div[1]/div/input"
+                ],
+                [
+                    "pierce/div:nth-of-type(2) > div:nth-of-type(6) div.ivu-select-selection > div > input"
+                ]
+            ],
+            "offsetY": 8.202362060546875,
+            "offsetX": 116.5118408203125
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(6) ul.ivu-select-dropdown-list > li:nth-of-type(1)"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[3]/div[2]/div[6]/div/div[2]/ul[2]/li[1]"
+                ],
+                [
+                    "pierce/div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(6) ul.ivu-select-dropdown-list > li:nth-of-type(1)"
+                ]
+            ],
+            "offsetY": 9.53271484375,
+            "offsetX": 78.4642333984375
+        }
+    ]
+}

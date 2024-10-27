@@ -1,0 +1,596 @@
+{
+    "title": "jiazhuangjiaju",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1437,
+            "height": 640,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "http://10.100.1.1/product-web/sinProMan/spu",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://10.100.1.1/product-web/sinProMan/spu",
+                    "title": "产品开发系统 - SPU管理"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#app label"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/label"
+                ],
+                [
+                    "pierce/#app label"
+                ],
+                [
+                    "text/打开分类"
+                ]
+            ],
+            "offsetY": 20.53125,
+            "offsetX": 20.0546875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.el-dialog__body > div > div:nth-of-type(15) span.el-tree-node__expand-icon"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[15]/div/span[1]"
+                ],
+                [
+                    "pierce/div.el-dialog__body > div > div:nth-of-type(15) span.el-tree-node__expand-icon"
+                ]
+            ],
+            "offsetY": 8.0859375,
+            "offsetX": 10.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.el-dialog__body > div > div:nth-of-type(15) div:nth-of-type(5) span.el-tree-node__expand-icon"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[15]/div[2]/div[5]/div/span[1]"
+                ],
+                [
+                    "pierce/div.el-dialog__body > div > div:nth-of-type(15) div:nth-of-type(5) span.el-tree-node__expand-icon"
+                ]
+            ],
+            "offsetY": 14.125,
+            "offsetX": 11.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.el-dialog__body > div > div:nth-of-type(15) > div.el-tree-node__content span > span"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[15]/div[1]/label/span/span"
+                ],
+                [
+                    "pierce/div.el-dialog__body > div > div:nth-of-type(15) > div.el-tree-node__content span > span"
+                ]
+            ],
+            "offsetY": 5.9453125,
+            "offsetX": 7.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(15) > div.el-tree-node__children > div.is-expanded > div.el-tree-node__children > div:nth-of-type(1) span.el-tree-node__expand-icon"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[15]/div[2]/div[5]/div[2]/div[1]/div/span[1]"
+                ],
+                [
+                    "pierce/div:nth-of-type(15) > div.el-tree-node__children > div.is-expanded > div.el-tree-node__children > div:nth-of-type(1) span.el-tree-node__expand-icon"
+                ]
+            ],
+            "offsetY": 12.1328125,
+            "offsetX": 7.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(15) > div.el-tree-node__children > div.is-expanded > div.el-tree-node__children > div.is-expanded > div.el-tree-node__children > div:nth-of-type(1) span > span"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[15]/div[2]/div[5]/div[2]/div[1]/div[2]/div[1]/div/label/span/span"
+                ],
+                [
+                    "pierce/div:nth-of-type(15) > div.el-tree-node__children > div.is-expanded > div.el-tree-node__children > div.is-expanded > div.el-tree-node__children > div:nth-of-type(1) span > span"
+                ]
+            ],
+            "offsetY": 3,
+            "offsetX": 2.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.el-dialog__body > div > div:nth-of-type(15) > div.el-tree-node__children > div:nth-of-type(3) span.el-tree-node__expand-icon"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[15]/div[2]/div[3]/div/span[1]"
+                ],
+                [
+                    "pierce/div.el-dialog__body > div > div:nth-of-type(15) > div.el-tree-node__children > div:nth-of-type(3) span.el-tree-node__expand-icon"
+                ]
+            ],
+            "offsetY": 9.109375,
+            "offsetX": 10.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(15) div:nth-of-type(3) div:nth-of-type(5) span > span"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[15]/div[2]/div[3]/div[2]/div[5]/div/label/span/span"
+                ],
+                [
+                    "pierce/div:nth-of-type(15) div:nth-of-type(3) div:nth-of-type(5) span > span"
+                ]
+            ],
+            "offsetY": 7.0078125,
+            "offsetX": 4.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.el-dialog__body > div > div:nth-of-type(13) span.el-tree-node__expand-icon"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[13]/div/span[1]"
+                ],
+                [
+                    "pierce/div.el-dialog__body > div > div:nth-of-type(13) span.el-tree-node__expand-icon"
+                ]
+            ],
+            "offsetY": 7.0703125,
+            "offsetX": 14.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.el-dialog__body > div > div:nth-of-type(13) > div.el-tree-node__content span > span"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[13]/div[1]/label/span/span"
+                ],
+                [
+                    "pierce/div.el-dialog__body > div > div:nth-of-type(13) > div.el-tree-node__content span > span"
+                ]
+            ],
+            "offsetY": 3.9296875,
+            "offsetX": 8.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.el-dialog__body > div > div:nth-of-type(13) div:nth-of-type(9) span > span"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[13]/div[2]/div[9]/div/label/span/span"
+                ],
+                [
+                    "pierce/div.el-dialog__body > div > div:nth-of-type(13) div:nth-of-type(9) span > span"
+                ]
+            ],
+            "offsetY": 3,
+            "offsetX": 5.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.el-dialog__body > div > div:nth-of-type(13) div:nth-of-type(8) span.el-tree-node__expand-icon"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[13]/div[2]/div[8]/div/span[1]"
+                ],
+                [
+                    "pierce/div.el-dialog__body > div > div:nth-of-type(13) div:nth-of-type(8) span.el-tree-node__expand-icon"
+                ]
+            ],
+            "offsetY": 8.1328125,
+            "offsetX": 14.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.el-dialog__body > div > div:nth-of-type(13) div:nth-of-type(12) span.el-tree-node__expand-icon"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[13]/div[2]/div[8]/div[2]/div[12]/div/span[1]"
+                ],
+                [
+                    "pierce/div.el-dialog__body > div > div:nth-of-type(13) div:nth-of-type(12) span.el-tree-node__expand-icon"
+                ]
+            ],
+            "offsetY": 9.2265625,
+            "offsetX": 14.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(13) > div.el-tree-node__children > div.is-expanded > div.el-tree-node__children > div.is-expanded > div.el-tree-node__children > div:nth-of-type(1) span > span"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[13]/div[2]/div[8]/div[2]/div[12]/div[2]/div[1]/div/label/span/span"
+                ],
+                [
+                    "pierce/div:nth-of-type(13) > div.el-tree-node__children > div.is-expanded > div.el-tree-node__children > div.is-expanded > div.el-tree-node__children > div:nth-of-type(1) span > span"
+                ]
+            ],
+            "offsetY": 4.09375,
+            "offsetX": 10.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.el-dialog__body > div > div:nth-of-type(13) > div.el-tree-node__children > div.is-expanded div:nth-of-type(9) span.el-tree-node__expand-icon"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[13]/div[2]/div[8]/div[2]/div[9]/div/span[1]"
+                ],
+                [
+                    "pierce/div.el-dialog__body > div > div:nth-of-type(13) > div.el-tree-node__children > div.is-expanded div:nth-of-type(9) span.el-tree-node__expand-icon"
+                ]
+            ],
+            "offsetY": 6.203125,
+            "offsetX": 10.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.el-dialog__body > div > div:nth-of-type(13) div:nth-of-type(21) span > span"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[13]/div[2]/div[8]/div[2]/div[9]/div[2]/div[21]/div/label/span/span"
+                ],
+                [
+                    "pierce/div.el-dialog__body > div > div:nth-of-type(13) div:nth-of-type(21) span > span"
+                ]
+            ],
+            "offsetY": 6.2265625,
+            "offsetX": 7.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.el-dialog__body > div > div:nth-of-type(13) > div.el-tree-node__children > div.is-expanded > div.el-tree-node__children > div:nth-of-type(2) span.el-tree-node__expand-icon"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[13]/div[2]/div[8]/div[2]/div[2]/div/span[1]"
+                ],
+                [
+                    "pierce/div.el-dialog__body > div > div:nth-of-type(13) > div.el-tree-node__children > div.is-expanded > div.el-tree-node__children > div:nth-of-type(2) span.el-tree-node__expand-icon"
+                ]
+            ],
+            "offsetY": 11.1484375,
+            "offsetX": 11.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.el-dialog__body > div > div:nth-of-type(13) div.el-tree-node__children > div:nth-of-type(2) div:nth-of-type(3) span > span"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[13]/div[2]/div[8]/div[2]/div[2]/div[2]/div[3]/div/label/span/span"
+                ],
+                [
+                    "pierce/div.el-dialog__body > div > div:nth-of-type(13) div.el-tree-node__children > div:nth-of-type(2) div:nth-of-type(3) span > span"
+                ]
+            ],
+            "offsetY": 1.03125,
+            "offsetX": 5.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.el-dialog__body > div > div:nth-of-type(13) div:nth-of-type(2) > div.el-tree-node__children > div:nth-of-type(2) span > span"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[13]/div[2]/div[8]/div[2]/div[2]/div[2]/div[2]/div/label/span/span"
+                ],
+                [
+                    "pierce/div.el-dialog__body > div > div:nth-of-type(13) div:nth-of-type(2) > div.el-tree-node__children > div:nth-of-type(2) span > span"
+                ]
+            ],
+            "offsetY": 4.0234375,
+            "offsetX": 5.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.el-dialog__body > div > div:nth-of-type(13) > div.el-tree-node__children > div.is-expanded > div.el-tree-node__children > div:nth-of-type(1) span.el-tree-node__expand-icon"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[13]/div[2]/div[8]/div[2]/div[1]/div/span[1]"
+                ],
+                [
+                    "pierce/div.el-dialog__body > div > div:nth-of-type(13) > div.el-tree-node__children > div.is-expanded > div.el-tree-node__children > div:nth-of-type(1) span.el-tree-node__expand-icon"
+                ]
+            ],
+            "offsetY": 6.140625,
+            "offsetX": 10.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.el-dialog__body > div > div:nth-of-type(13) div:nth-of-type(1) > div.el-tree-node__children > div:nth-of-type(2) span > span"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[13]/div[2]/div[8]/div[2]/div[1]/div[2]/div[2]/div/label/span/span"
+                ],
+                [
+                    "pierce/div.el-dialog__body > div > div:nth-of-type(13) div:nth-of-type(1) > div.el-tree-node__children > div:nth-of-type(2) span > span"
+                ]
+            ],
+            "offsetY": 2.015625,
+            "offsetX": 7.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.el-dialog__body > div > div:nth-of-type(13) div.el-tree-node__children > div:nth-of-type(1) div:nth-of-type(3) span > span"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[13]/div[2]/div[8]/div[2]/div[1]/div[2]/div[3]/div/label/span/span"
+                ],
+                [
+                    "pierce/div.el-dialog__body > div > div:nth-of-type(13) div.el-tree-node__children > div:nth-of-type(1) div:nth-of-type(3) span > span"
+                ]
+            ],
+            "offsetY": 10.0234375,
+            "offsetX": 5.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.el-dialog__body > div > div:nth-of-type(13) > div.el-tree-node__children > div:nth-of-type(7) span.el-tree-node__expand-icon"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[13]/div[2]/div[7]/div/span[1]"
+                ],
+                [
+                    "pierce/div.el-dialog__body > div > div:nth-of-type(13) > div.el-tree-node__children > div:nth-of-type(7) span.el-tree-node__expand-icon"
+                ]
+            ],
+            "offsetY": 7.125,
+            "offsetX": 10.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(13) div:nth-of-type(7) div:nth-of-type(10) span.el-tree-node__expand-icon"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[13]/div[2]/div[7]/div[2]/div[10]/div/span[1]"
+                ],
+                [
+                    "pierce/div:nth-of-type(13) div:nth-of-type(7) div:nth-of-type(10) span.el-tree-node__expand-icon"
+                ]
+            ],
+            "offsetY": 6.203125,
+            "offsetX": 10.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(13) div:nth-of-type(7) > div.el-tree-node__children > div.is-expanded > div.el-tree-node__children > div:nth-of-type(1) span > span"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[13]/div[2]/div[7]/div[2]/div[10]/div[2]/div[1]/div/label/span/span"
+                ],
+                [
+                    "pierce/div:nth-of-type(13) div:nth-of-type(7) > div.el-tree-node__children > div.is-expanded > div.el-tree-node__children > div:nth-of-type(1) span > span"
+                ]
+            ],
+            "offsetY": 6.0703125,
+            "offsetX": 7.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(13) div:nth-of-type(7) > div.el-tree-node__children > div.is-expanded > div.el-tree-node__children > div:nth-of-type(2) span > span"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[13]/div[2]/div[7]/div[2]/div[10]/div[2]/div[2]/div/label/span/span"
+                ],
+                [
+                    "pierce/div:nth-of-type(13) div:nth-of-type(7) > div.el-tree-node__children > div.is-expanded > div.el-tree-node__children > div:nth-of-type(2) span > span"
+                ]
+            ],
+            "offsetY": 1.078125,
+            "offsetX": 5.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(13) div:nth-of-type(7) > div.el-tree-node__children > div.is-expanded div:nth-of-type(3) span > span"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[13]/div[2]/div[7]/div[2]/div[10]/div[2]/div[3]/div/label/span/span"
+                ],
+                [
+                    "pierce/div:nth-of-type(13) div:nth-of-type(7) > div.el-tree-node__children > div.is-expanded div:nth-of-type(3) span > span"
+                ]
+            ],
+            "offsetY": 8.0859375,
+            "offsetX": 4.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(13) div:nth-of-type(7) > div.el-tree-node__children > div.is-expanded div:nth-of-type(4) span > span"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[13]/div[2]/div[7]/div[2]/div[10]/div[2]/div[4]/div/label/span/span"
+                ],
+                [
+                    "pierce/div:nth-of-type(13) div:nth-of-type(7) > div.el-tree-node__children > div.is-expanded div:nth-of-type(4) span > span"
+                ]
+            ],
+            "offsetY": 4.09375,
+            "offsetX": 4.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(13) div:nth-of-type(7) > div.el-tree-node__children > div.is-expanded div.is-checked span > span"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[13]/div[2]/div[7]/div[2]/div[10]/div[2]/div[5]/div/label/span/span"
+                ],
+                [
+                    "pierce/div:nth-of-type(13) div:nth-of-type(7) > div.el-tree-node__children > div.is-expanded div.is-checked span > span"
+                ]
+            ],
+            "offsetY": 5.1015625,
+            "offsetX": 4.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(13) div:nth-of-type(7) > div.el-tree-node__children > div:nth-of-type(2) span.el-tree-node__expand-icon"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[13]/div[2]/div[7]/div[2]/div[2]/div/span[1]"
+                ],
+                [
+                    "pierce/div:nth-of-type(13) div:nth-of-type(7) > div.el-tree-node__children > div:nth-of-type(2) span.el-tree-node__expand-icon"
+                ]
+            ],
+            "offsetY": 9.140625,
+            "offsetX": 11.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(7) div:nth-of-type(12) span > span"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[13]/div[2]/div[7]/div[2]/div[2]/div[2]/div[12]/div/label/span/span"
+                ],
+                [
+                    "pierce/div:nth-of-type(7) div:nth-of-type(12) span > span"
+                ]
+            ],
+            "offsetY": 3.09375,
+            "offsetX": 7.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(13) div:nth-of-type(7) > div.el-tree-node__children > div:nth-of-type(1) span > span"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[13]/div[2]/div[7]/div[2]/div[1]/div/label/span/span"
+                ],
+                [
+                    "pierce/div:nth-of-type(13) div:nth-of-type(7) > div.el-tree-node__children > div:nth-of-type(1) span > span"
+                ]
+            ],
+            "offsetY": 5.9921875,
+            "offsetX": 7.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/确 定",
+                    "aria/[role=\"generic\"]"
+                ],
+                [
+                    "button.el-button--primary > span"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[3]/span/button[2]/span"
+                ],
+                [
+                    "pierce/button.el-button--primary > span"
+                ],
+                [
+                    "text/确 定"
+                ]
+            ],
+            "offsetY": 2.9921875,
+            "offsetX": 5.3828125
+        }
+    ]
+}

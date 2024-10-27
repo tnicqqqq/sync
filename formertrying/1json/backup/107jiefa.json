@@ -1,0 +1,86 @@
+{
+    "title": "jiefa",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1437,
+            "height": 640,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "http://10.100.1.1/product-web/sinProMan/spu",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://10.100.1.1/product-web/sinProMan/spu",
+                    "title": "产品开发系统 - SPU管理"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#app label"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/label"
+                ],
+                [
+                    "pierce/#app label"
+                ],
+                [
+                    "text/打开分类"
+                ]
+            ],
+            "offsetY": 24.53125,
+            "offsetX": 28.0546875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.el-dialog__body > div > div:nth-of-type(12) span > span"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[12]/div/label/span/span"
+                ],
+                [
+                    "pierce/div.el-dialog__body > div > div:nth-of-type(12) span > span"
+                ]
+            ],
+            "offsetY": 1.921875,
+            "offsetX": 7.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/确 定",
+                    "aria/[role=\"generic\"]"
+                ],
+                [
+                    "button.el-button--primary > span"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[3]/span/button[2]/span"
+                ],
+                [
+                    "pierce/button.el-button--primary > span"
+                ],
+                [
+                    "text/确 定"
+                ]
+            ],
+            "offsetY": 10.9921875,
+            "offsetX": 25.3828125
+        }
+    ]
+}

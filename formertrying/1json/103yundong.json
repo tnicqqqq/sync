@@ -1,0 +1,290 @@
+{
+    "title": "103yundong",
+    "steps": [
+        
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#app label"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/label"
+                ],
+                [
+                    "pierce/#app label"
+                ],
+                [
+                    "text/打开分类"
+                ]
+            ],
+            "offsetY": 21.53125,
+            "offsetX": 23.0546875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.el-dialog__body > div > div:nth-of-type(25) span > span"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[25]/div/label/span/span"
+                ],
+                [
+                    "pierce/div.el-dialog__body > div > div:nth-of-type(25) span > span"
+                ]
+            ],
+            "offsetY": 4.0234375,
+            "offsetX": 4.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.el-dialog__body > div > div:nth-of-type(25) span.el-tree-node__expand-icon"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[25]/div/span[1]"
+                ],
+                [
+                    "pierce/div.el-dialog__body > div > div:nth-of-type(25) span.el-tree-node__expand-icon"
+                ]
+            ],
+            "offsetY": 10.1640625,
+            "offsetX": 8.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(25) div:nth-of-type(9) span.el-tree-node__expand-icon"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[25]/div[2]/div[9]/div/span[1]"
+                ],
+                [
+                    "pierce/div:nth-of-type(25) div:nth-of-type(9) span.el-tree-node__expand-icon"
+                ]
+            ],
+            "offsetY": 12.234375,
+            "offsetX": 11.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(25) > div.el-tree-node__children > div.is-expanded > div.el-tree-node__children > div:nth-of-type(6) span.el-tree-node__expand-icon"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[25]/div[2]/div[9]/div[2]/div[6]/div/span[1]"
+                ],
+                [
+                    "pierce/div:nth-of-type(25) > div.el-tree-node__children > div.is-expanded > div.el-tree-node__children > div:nth-of-type(6) span.el-tree-node__expand-icon"
+                ]
+            ],
+            "offsetY": 10.28125,
+            "offsetX": 14.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(25) > div.el-tree-node__children > div.is-expanded > div.el-tree-node__children > div.is-expanded div:nth-of-type(3) span > span"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[25]/div[2]/div[9]/div[2]/div[6]/div[2]/div[3]/div/label/span/span"
+                ],
+                [
+                    "pierce/div:nth-of-type(25) > div.el-tree-node__children > div.is-expanded > div.el-tree-node__children > div.is-expanded div:nth-of-type(3) span > span"
+                ]
+            ],
+            "offsetY": 10.1640625,
+            "offsetX": 5.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(25) > div.el-tree-node__children > div:nth-of-type(8) span > span"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[25]/div[2]/div[8]/div/label/span/span"
+                ],
+                [
+                    "pierce/div:nth-of-type(25) > div.el-tree-node__children > div:nth-of-type(8) span > span"
+                ]
+            ],
+            "offsetY": 5.0859375,
+            "offsetX": 5.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(25) > div.el-tree-node__children > div:nth-of-type(5) span.el-tree-node__expand-icon"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[25]/div[2]/div[5]/div/span[1]"
+                ],
+                [
+                    "pierce/div:nth-of-type(25) > div.el-tree-node__children > div:nth-of-type(5) span.el-tree-node__expand-icon"
+                ]
+            ],
+            "offsetY": 8.203125,
+            "offsetX": 8.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(25) div:nth-of-type(5) > div.el-tree-node__children > div:nth-of-type(2) span.el-tree-node__expand-icon"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[25]/div[2]/div[5]/div[2]/div[2]/div/span[1]"
+                ],
+                [
+                    "pierce/div:nth-of-type(25) div:nth-of-type(5) > div.el-tree-node__children > div:nth-of-type(2) span.el-tree-node__expand-icon"
+                ]
+            ],
+            "offsetY": 4.21875,
+            "offsetX": 13.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(25) div:nth-of-type(5) > div.el-tree-node__children > div.is-expanded div:nth-of-type(3) span > span"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[25]/div[2]/div[5]/div[2]/div[2]/div[2]/div[3]/div/label/span/span"
+                ],
+                [
+                    "pierce/div:nth-of-type(25) div:nth-of-type(5) > div.el-tree-node__children > div.is-expanded div:nth-of-type(3) span > span"
+                ]
+            ],
+            "offsetY": 7.1015625,
+            "offsetX": 8.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(25) > div.el-tree-node__children > div:nth-of-type(2) span.el-tree-node__expand-icon"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[25]/div[2]/div[2]/div/span[1]"
+                ],
+                [
+                    "pierce/div:nth-of-type(25) > div.el-tree-node__children > div:nth-of-type(2) span.el-tree-node__expand-icon"
+                ]
+            ],
+            "offsetY": 8.1796875,
+            "offsetX": 10.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(25) > div.el-tree-node__children > div:nth-of-type(2) div:nth-of-type(4) span > span"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[25]/div[2]/div[2]/div[2]/div[4]/div/label/span/span"
+                ],
+                [
+                    "pierce/div:nth-of-type(25) > div.el-tree-node__children > div:nth-of-type(2) div:nth-of-type(4) span > span"
+                ]
+            ],
+            "offsetY": 6.0703125,
+            "offsetX": 8.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(25) > div.el-tree-node__children > div:nth-of-type(1) span.el-tree-node__expand-icon"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[25]/div[2]/div[1]/div/span[1]"
+                ],
+                [
+                    "pierce/div:nth-of-type(25) > div.el-tree-node__children > div:nth-of-type(1) span.el-tree-node__expand-icon"
+                ]
+            ],
+            "offsetY": 8.171875,
+            "offsetX": 17.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.el-tree-node__children > div:nth-of-type(1) div:nth-of-type(12) span.el-tree-node__expand-icon"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[25]/div[2]/div[1]/div[2]/div[12]/div/span[1]"
+                ],
+                [
+                    "pierce/div.el-tree-node__children > div:nth-of-type(1) div:nth-of-type(12) span.el-tree-node__expand-icon"
+                ]
+            ],
+            "offsetY": 10.265625,
+            "offsetX": 16.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(1) > div.el-tree-node__children > div.is-expanded div:nth-of-type(1) > div"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[25]/div[2]/div[1]/div[2]/div[12]/div[2]/div[1]/div"
+                ],
+                [
+                    "pierce/div:nth-of-type(1) > div.el-tree-node__children > div.is-expanded div:nth-of-type(1) > div"
+                ]
+            ],
+            "offsetY": 15.2578125,
+            "offsetX": 91.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.is-current span > span"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[25]/div[2]/div[1]/div[2]/div[12]/div[2]/div[1]/div/label/span/span"
+                ],
+                [
+                    "pierce/div.is-current span > span"
+                ]
+            ],
+            "offsetY": 5.1328125,
+            "offsetX": 8.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                "#app > div > div.right-content.ivu-layout > div.main-content-con.ivu-layout-content > div > div > div.ivu-card.ivu-card-bordered > div > div:nth-child(1) > div:nth-child(6) > div > div.ivu-col.ivu-col-span-8 > div > div.el-dialog__wrapper.category-dialog > div > div.el-dialog__body > div > div:nth-child(25) > div.el-tree-node__children > div:nth-child(1) > div.el-tree-node__children > div:nth-child(9) > div > label"
+            ],
+            "offsetY": 5.1328125,
+            "offsetX": 8.9921875
+        }
+    ]
+}

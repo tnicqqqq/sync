@@ -1,0 +1,181 @@
+{
+    "title": "start",
+    "steps": [
+	{
+            "type": "navigate",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://10.100.1.1/product-web/sinProMan/sinProManManage",
+                    "title": ""
+                }
+            ],
+            "url": "http://10.100.1.1/product-web/sinProMan/sinProManManage"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "li.ivu-menu-item-active li:nth-of-type(4) > span"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[1]/div[1]/div/ul/li[2]/ul/li[4]/span"
+                ],
+                [
+                    "pierce/li.ivu-menu-item-active li:nth-of-type(4) > span"
+                ]
+            ],
+            "offsetX": 43.0078125,
+            "offsetY": 9.71875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[2]/div[7]/div/a"
+            ],
+            "offsetX": 24.390625,
+            "offsetY": 7.046875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) i"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[3]/div[1]/div[2]/div/div[1]/div/i"
+                ],
+                [
+                    "pierce/div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) i"
+                ]
+            ],
+            "offsetX": 6.1875,
+            "offsetY": 6.94140625
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) ul.ivu-select-dropdown-list > li:nth-of-type(1)"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[3]/div[1]/div[2]/div/div[2]/ul[2]/li[1]"
+                ],
+                [
+                    "pierce/div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) ul.ivu-select-dropdown-list > li:nth-of-type(1)"
+                ]
+            ],
+            "offsetX": 313.921875,
+            "offsetY": 3.4609375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.right-content div:nth-of-type(2) > i"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[2]/div[2]/div/div[1]/div/div[2]/i"
+                ],
+                [
+                    "pierce/div.right-content div:nth-of-type(2) > i"
+                ]
+            ],
+            "offsetX": 7.00335693359375,
+            "offsetY": 4.560821533203125
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.right-content div:nth-of-type(2) > i"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[2]/div[2]/div/div[1]/div/div[2]/i"
+                ],
+                [
+                    "pierce/div.right-content div:nth-of-type(2) > i"
+                ]
+            ],
+            "offsetX": 7.00335693359375,
+            "offsetY": 4.560821533203125
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.right-content div:nth-of-type(2) > i"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[2]/div[2]/div/div[1]/div/div[2]/i"
+                ],
+                [
+                    "pierce/div.right-content div:nth-of-type(2) > i"
+                ]
+            ],
+            "offsetX": 7.00335693359375,
+            "offsetY": 4.560821533203125
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.right-content div:nth-of-type(2) > i"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[2]/div[2]/div/div[1]/div/div[2]/i"
+                ],
+                [
+                    "pierce/div.right-content div:nth-of-type(2) > i"
+                ]
+            ],
+            "offsetX": 7.00335693359375,
+            "offsetY": 4.560821533203125
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.right-content div:nth-of-type(2) > i"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[2]/div[2]/div/div[1]/div/div[2]/i"
+                ],
+                [
+                    "pierce/div.right-content div:nth-of-type(2) > i"
+                ]
+            ],
+            "offsetX": 7.00335693359375,
+            "offsetY": 4.560821533203125
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.ivu-card > div > div:nth-of-type(1) > div:nth-of-type(7)"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[7]"
+                ],
+                [
+                    "pierce/div.ivu-card > div > div:nth-of-type(1) > div:nth-of-type(7)"
+                ]
+            ],
+            "offsetX": 60.9765625,
+            "offsetY": 26.53125
+        }
+
+
+
+    ]
+}

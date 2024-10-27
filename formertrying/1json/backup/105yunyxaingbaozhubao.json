@@ -1,0 +1,96 @@
+{
+    "title": "yunyxaingbaozhubao",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1437,
+            "height": 640,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "http://10.100.1.1/product-web/sinProMan/spu",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://10.100.1.1/product-web/sinProMan/spu",
+                    "title": "产品开发系统 - SPU管理"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#app label"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/label"
+                ],
+                [
+                    "pierce/#app label"
+                ],
+                [
+                    "text/打开分类"
+                ]
+            ],
+            "offsetY": 18.53125,
+            "offsetX": 26.0546875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.el-dialog__body > div > div:nth-of-type(19) span > span"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[19]/div/label/span/span"
+                ],
+                [
+                    "pierce/div.el-dialog__body > div > div:nth-of-type(19) span > span"
+                ]
+            ],
+            "offsetY": 2.9765625,
+            "offsetX": 4.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.el-dialog__body > div > div:nth-of-type(18) span > span"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[18]/div/label/span/span"
+                ],
+                [
+                    "pierce/div.el-dialog__body > div > div:nth-of-type(18) span > span"
+                ]
+            ],
+            "offsetY": 4.96875,
+            "offsetX": 5.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.el-dialog__body > div > div:nth-of-type(16) span > span"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[16]/div/label/span/span"
+                ],
+                [
+                    "pierce/div.el-dialog__body > div > div:nth-of-type(16) span > span"
+                ]
+            ],
+            "offsetY": 2.953125,
+            "offsetX": 2.9921875
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "title": "101nannvhunlishoubiaoWithoutOpenCates",
+    "steps": [
+        
+        
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(30) span > span"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[30]/div/label/span/span"
+                ],
+                [
+                    "pierce/div:nth-of-type(30) span > span"
+                ]
+            ],
+            "offsetY": 2.0625,
+            "offsetX": 7.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(29) span > span"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[29]/div/label/span/span"
+                ],
+                [
+                    "pierce/div:nth-of-type(29) span > span"
+                ]
+            ],
+            "offsetY": 5.0546875,
+            "offsetX": 8.9921875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(28) span > span"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[28]/div/label/span/span"
+                ],
+                [
+                    "pierce/div:nth-of-type(28) span > span"
+                ]
+            ],
+            "offsetY": 12.046875,
+            "offsetX": 8.9921875
+        }
+        
+    ]
+}

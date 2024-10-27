@@ -1,0 +1,23 @@
+{
+    "title": "107jiefa",
+    "steps": [
+
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.el-dialog__body > div > div:nth-of-type(12) span > span"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div/div[2]/div[2]/div/div/div[1]/div/div[1]/div[6]/div/div[2]/div/div[1]/div/div[2]/div/div[12]/div/label/span/span"
+                ],
+                [
+                    "pierce/div.el-dialog__body > div > div:nth-of-type(12) span > span"
+                ]
+            ],
+            "offsetY": 1.921875,
+            "offsetX": 7.9921875
+        }
+    ]
+}
